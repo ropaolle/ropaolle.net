@@ -4,20 +4,20 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>RopaOlle.net</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://ropaolle.net">RopaOlle.net!</a>
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Release <code>Beta 0.0.0.1</code>
         </p>
 
-        <div className="grid">
+        {/* <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
@@ -40,14 +40,12 @@ export default function Home() {
             <h3>Deploy &rarr;</h3>
             <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
           </a>
-        </div>
+        </div> */}
       </main>
 
       <footer>
         <a href="https://ropaolle.net" target="_blank" rel="noopener noreferrer">
-          Made by
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
-          {/*RopaOlle.net <img src="/logo.svg" alt="ropaolle.net" className="logo" /> */}
+          RopaOlle.net <img src="/logo.svg" alt="ropaolle.net" className="logo" />
         </a>
       </footer>
 
@@ -59,6 +57,7 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          background-color: #444;
         }
 
         main {
@@ -73,7 +72,7 @@ export default function Home() {
         footer {
           width: 100%;
           height: 100px;
-          border-top: 1px solid #eaeaea;
+          border-top: 1px solid #555;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -122,7 +121,7 @@ export default function Home() {
         }
 
         code {
-          background: #fafafa;
+          background: #555;
           border-radius: 5px;
           padding: 0.75rem;
           font-size: 1.1rem;
